@@ -15,6 +15,7 @@ import FAQ from "./pages/FAQ";
 import Resources from "./pages/Resources";
 import Changelog from "./pages/Changelog";
 import NotFound from "./pages/NotFound";
+import BreadenPresentation from "./pages/BreadenPresentation";
 
 const queryClient = new QueryClient();
 
@@ -36,6 +37,7 @@ const App = () => (
             <Route path="/faq" element={<FAQ />} />
             <Route path="/resources" element={<Resources />} />
             <Route path="/changelog" element={<Changelog />} />
+            <Route path="/breaden-presentation" element={<BreadenPresentation />} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
