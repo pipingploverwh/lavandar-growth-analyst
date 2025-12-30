@@ -1,0 +1,7 @@
+project_id = "aibpbzzfhfevbpeqyrrb"
+
+[functions.fetch-page]
+verify_jwt = false
+
+[functions.analyze-tce]
+verify_jwt = false
