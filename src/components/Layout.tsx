@@ -14,6 +14,7 @@ import {
   Menu,
   X,
   Search,
+  Gauge,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -25,6 +26,7 @@ const navItems = [
   { title: "Operating Principles", path: "/principles", icon: BookOpen },
   { title: "Offer Design", path: "/offer-design", icon: Target },
   { title: "Growth Playbooks", path: "/growth", icon: TrendingUp },
+  { title: "TCE Analyzer", path: "/tce-analyzer", icon: Gauge },
   { title: "Tools & Tech Stack", path: "/tools", icon: Wrench },
   { title: "AI & Automations", path: "/ai", icon: Sparkles },
   { title: "Templates & Assets", path: "/templates", icon: FileText },
