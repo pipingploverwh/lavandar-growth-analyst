@@ -18,6 +18,7 @@ import Changelog from "./pages/Changelog";
 import NotFound from "./pages/NotFound";
 import BreadenPresentation from "./pages/BreadenPresentation";
 import TCEAnalyzer from "./pages/TCEAnalyzer";
+import StartupVisa from "./pages/StartupVisa";
 
 const queryClient = new QueryClient();
 
@@ -41,6 +42,7 @@ const App = () => (
               <Route path="/resources" element={<Resources />} />
               <Route path="/changelog" element={<Changelog />} />
               <Route path="/tce-analyzer" element={<TCEAnalyzer />} />
+              <Route path="/startup-visa" element={<StartupVisa />} />
               <Route path="/breaden-presentation" element={<BreadenPresentation />} />
               <Route path="*" element={<NotFound />} />
             </Route>
